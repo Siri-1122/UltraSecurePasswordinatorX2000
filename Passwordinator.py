@@ -22,7 +22,7 @@ def passwordinator():
         elif a == numbers:
             pw.append(a[random.randint(0,9)])
         elif a == runes:
-            pw.append(a[random.randint(0, len(runes)])
+            pw.append(a[random.randint(0, len(runes))])
         else:
             pw.append(a[random.randint(0,9)])
         n += 1
